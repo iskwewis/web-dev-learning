@@ -1,0 +1,81 @@
+<!-- lesson 1 - julie - jul 28 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Mania</title>
+    <link rel="stylesheet" href="./CSS/style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <!-- h1-h6 - block -->
+        <h1>Movie Mania</h1>
+        <nav>
+            <!-- ul - block -->
+            <ul class="nav">
+                <li><a href="#playing">Now Playing</a></li>
+                <li>|</li>
+                <li><a href="#soon">Coming Soon</a></li>
+                <li>|</li>
+                <li><a href="#favourites">My Favourites</a></li>
+            </ul>
+    </header>
+    <main>
+            <!-- NOW PLAYING -->
+        <!-- article - block -->
+        <article>
+            <div class="now-playing">
+                <h2 id="playing">Now Playing</h2>
+                <div class="side">
+                    <!-- img - inline -->
+                    <img src="./images/micheal-poster.jpg" alt="Micheal holding a microphone in his hand and singing on stage and his other arm up">
+                    <img src="./images/the-odyssey.jpg" alt="Odysseus standing with a sword in his hand and a large wooden horse behind him">
+                </div>
+                <div class="side">
+                    <h3>Micheal</h3>
+                    <h3>The Odyssey</h3>
+                </div>
+            </div>
+        </article>
+                <!-- COMING SOON -->
+        <article>
+            <h2 id="soon">Coming Soon</h2>
+            <ul>
+                <li><img src="./images/spider-man.jpg" alt="spider-man posing in the air with his legs bent and his arms up"></li>
+                <li>Spider-man</li>
+                <li><img src="./images/Super_Troopers_3_poster.jpeg" alt="Five main actors walking on the highway with fire behind them"></li>
+                <li>Super Troopers 3</li>
+            </ul>
+        </article>
+            <!-- MY FAVOURITES -->
+        <!-- aside - block -->
+        <aside>
+            <h2 id="favourites">My Favourites</h2>
+            <div class="side">
+                <img src="./images/micheal-poster.jpg" alt="micheal movie poster">
+                <img src="./images/barbie-poster.jpg" alt="Barbie sitting on Ken's shoulder with her arm raised while Ken flexes and holds her up">
+            </div>
+            <div class="side">
+                <!-- strong - inline -->
+                <h3><strong>Micheal</strong></h3>
+                <h3><strong>Barbie</strong></h3>
+            </div>
+            <div class="side">
+                <p>Michael is a 2026 biographical drama film directed by Antoine Fuqua that chronicles the life and
+                    career of pop icon Michael Jackson, starring his nephew Jaafar Jackson in the title role.</p>
+
+                <p>The movie Barbie is a 2023 comedy fantasy film following Stereotypical Barbie and Ken as they leave
+                    the utopian Barbie Land for an eye-opening journey into the real world.</p>
+            </div>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        &copy; 2026 Movie Mania
+    </footer>
+</body>
+
+</html>

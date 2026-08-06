@@ -1,0 +1,85 @@
+body {
+    background-color: #000913;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+}
+
+header {
+    background-color: #001D3B;
+    border: dotted 5px gold;
+}
+
+/* HEADINGS */
+h1 {
+    color: gold;
+    font-size: 60px;
+    font-family: Tahoma;
+}
+
+h2 {
+    color: gold;
+    font-size: 40px;
+    border: dotted 4px gold;
+    padding: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #001D3B;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding: 5%;
+}
+
+.nav li a {
+    margin: auto;
+    color: gold;
+    font-size: large;
+}
+
+li, ul li {
+    list-style-type: none;
+    color: gold;
+    margin: auto;
+}
+
+a {
+    text-decoration-line: none;
+    
+}
+
+img {
+    width: 130px;
+    height: 200px;
+    padding: 2%;
+    margin: auto;
+}
+
+.side, .side h3 {
+    display: flex;
+    margin: auto;
+    padding: 1%;
+    align-items: flex-start;
+
+}
+
+p {
+    font-size: 100%;
+    text-align: left;
+    font-size: 15px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer {
+    color: gold;
+    margin: 5%;
+    text-align: left;
+}
+
