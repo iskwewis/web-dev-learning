@@ -1,0 +1,110 @@
+/*     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; */
+
+/* GLOBAL IMAGE STYLE */
+img {
+    max-width: 50%;
+    height: 200px;
+    text-align: center;
+}
+
+body {
+    background-color: darkgray;
+}
+
+header {
+    border: solid black 5px;
+}
+
+header {
+    background-color: rgb(34, 34, 34);
+    color: White;
+    text-align: center;
+    padding: 2%;
+}
+
+.head ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.head ul li a {
+    color: white;
+    text-decoration-line: none;
+    text-align: center;
+    padding: 20px;
+}
+
+/* HEADINGS */
+h1 {
+    font: sans-serif;
+    font-size: 60px;
+    font-style: italic;
+}
+h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: Verdana;
+    padding: 1%;
+    align-items: center;
+}
+
+.wrapper {
+    margin: 5%;
+}
+.medias {
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* DISCOGRAPHY */
+dl {
+    display: flex;
+    justify-content: space-between;
+}
+dt {
+    color: darkgoldenrod;
+    font-size: 25px;
+    padding: 5px;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+}
+dd {
+    color: darkgoldenrod;
+    font-family: Verdana;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+.disk {
+    background-color: rgb(34, 34, 34);
+    border: solid darkgoldenrod 2px;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.beside {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+}
