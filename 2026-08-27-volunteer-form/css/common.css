@@ -1,0 +1,92 @@
+/* .dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+ */
+ /* 
+ .lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+  */
+colors
+{
+color: 
+#783930
+#7d1f11 
+#C6664E  
+#F5D4B5  
+#F8EBD8  
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-image: url(../images/background-img-webpage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+header ul {
+    display: flex;
+    gap: 10%;
+}
+
+/* STYLE */
+footer {
+    color: black;
+    padding: 2%;
+    background-color: #F8EBD8;
+}
+
+header {
+    color: black;
+    padding: 4%;
+}
+
+header nav a {
+    color: black;
+}
+
+/* STYLES */
+
+h1 {
+    font-family: "DM Serif Display", serif;
+    font-size: 2.5rem;
+    color: #7d1f11 ;
+}
+
+header ul {
+    font-family: "Lato", sans-serif;
+    font-size: 1.2rem;
+}

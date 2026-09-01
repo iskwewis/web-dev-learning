@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reset.css" type="text/css">
+    <link rel="stylesheet" href="../css/common.css" type="text/css">
+    <link rel="stylesheet" href="../css/sign-up.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="../images/logo-volunteer.png" alt="placeholder img">
+        <h1>Remembering, Sharing & Connecting</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./sign-up.html">Volunteer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Volunteer Opportunities</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Welcome & Hospitality</h3>
+                    <p>Welcome guests, answer questions, and help people find their way around the gathering.</p>
+                </div>
+                <div class="card">
+                    <h3>Food & Refreshments</h3>
+                    <p>Help prepare, serve, and organize food and refreshments.</p>
+                </div>
+                <div class="card">
+                    <h3>Story & Sharing Support</h3>
+                    <p>Help prepare the sharing space and create a welcoming environment for participants.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Creative Activities</h3>
+                    <p>Help set up creative activites, assist participants, and organize supplies.</p>
+                </div>
+                <div class="card">
+                    <h3>Resource Table</h3>
+                    <p>Help organize MMIWG2S+ resources and direct attendees to information.</p>
+                </div>
+                <div class="card">
+                    <h3>Event Setup</h3>
+                    <p>Help arrange tables, chairs, activity areas, and event materials before the gathering.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Accessibility & Guest Support</h3>
+                    <p>Help make sure guests can comfortably navigate and participate in the gathering.</p>
+                </div>
+                <div class="card">
+                    <h3>Cleanup</h3>
+                    <p>Help clean and organize the space after the event.</p>
+                </div>
+            </div>
+                
+        </section>
+<!-- FORM -->
+        <form action="#" method="post">
+            <div class="form">
+                <!-- CONTACT -->
+            <fieldset class="contact-info">
+                <legend>Personal Information</legend>
+
+                <label for="first">First Name:</label>
+                <input type="text" id="first" name="first" required>
+
+                <label for="last">Last Name:</label>
+                <input type="text" name="last" id="last">
+
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" required>
+
+                <label for="phone">Number:</label>
+                <input type="tel" name="phone" id="phone">
+            </fieldset>
+<!-- ADDRESS -->
+            <fieldset class="address">
+                <legend>Volunteer Address</legend>
+
+                <label for="street">Street Address:</label>
+                <input type="text" name="street" id="street">
+
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city">
+
+                <label for="prov">Province</label>
+                <select name="province" id="prov">
+                    <option value="ab">AB</option>
+                    <option value="bc">BC</option>
+                    <option value="mb">MB</option>
+                    <option value="nb">NB</option>
+                    <option value="nl">NL</option>
+                    <option value="ns">NS</option>
+                    <option value="on">ON</option>
+                    <option value="pe">PE</option>
+                    <option value="qc">QC</option>
+                    <option value="sk">SK</option>
+                </select>
+
+                <label for="postal">Postal Code:</label>
+                <input type="text" name="postal" id="postal">
+            </fieldset>
+<!-- ROLE -->
+            <fieldset class="role">
+                <legend>Volunteer Role</legend>
+
+                <label for="role">Role:</label>
+                <select name="role" id="role">
+                    <option value="welcome">Welcome & Hospitality</option>
+                    <option value="food">Food & Refreshments</option>
+                    <option value="story">Story & Sharing Support</option>
+                    <option value="creative">Creative Activities</option>
+                    <option value="resource">Resource Table</option>
+                    <option value="setup">Event Setup</option>
+                    <option value="support">Accessibility & Guest Support</option>
+                    <option value="clean">Cleanup</option>
+                </select>
+                <label for="comments">Anything else you'd like us to know?</label>
+                <textarea name="comments" id="comments"></textarea>
+
+            </fieldset>
+<!-- AVAILABLILITY -->
+            <fieldset class="availability">
+                <legend>Availability</legend>
+
+                <label for="before">Before the event</label>
+                <input type="checkbox" id="before" name="availability" value="before">
+                
+                <label for="during">During the event</label>
+                <input type="checkbox" id="during" name="availability" value="during">
+                
+                <label for="after">After the Event</label>
+                <input type="checkbox" name="availability" id="after">
+
+                <label for="anytime">Anytime</label>
+                <input type="checkbox" name="availability" id="anytime">
+            </fieldset>
+            </div>
+            
+<!-- CONSENT/SUBMIT -->
+            <fieldset class="consent-submit">
+                <input type="radio" name="consent" id="consent">
+                <label for="consent">I understand that submitting this form is an expression of interest in volunteering and that my preferred role may depend on event needs.</label>
+
+                <div class="buttons">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Cancel</button>
+                </div>
+            </fieldset>
+            
+        </form>
+    <footer>
+        <p>&copy Julie Rose 2026 | IFA Web Development Internship</p>
+    </footer>
+</body>
+</html>
