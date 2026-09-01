@@ -1,0 +1,31 @@
+@charset "utf-8";
+/*
+The purpose of this reset sheet is to override/cancel 
+some of the default browser styles that may creep 
+into the final design of the web page due to inheritance 
+and precedence as this makes it harder to control the layout.
+*/
+
+*{
+margin: 0px;
+padding: 0px;
+line-height: 1;
+font-size: 100%;
+box-sizing: border-box;
+}
+
+nav ul a, a {
+text-decoration: none;
+}
+
+/* removes the bullet point symbols of navigational lists. */
+nav ul {
+list-style-type: none;
+}
+
+/* GLOBAL IMG STYLE */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}

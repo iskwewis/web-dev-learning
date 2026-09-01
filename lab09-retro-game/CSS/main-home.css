@@ -1,0 +1,100 @@
+/* homepage laying out elements in proper places */
+/* style common elements -header-footer-nav */
+
+/* blue: #0924AC 
+green: #0E9636 
+red: #FE271C
+yellow: #FFC209 
+darkgray: #5D5D66 
+lightgray: #CACACA */
+
+/* FONTS
+.press-start-2p-regular {
+font-family: "Press Start 2P", system-ui;
+font-weight: 400;
+font-style: normal;
+}
+
+.space-grotesk-<uniquifier> {
+font-family: "Space Grotesk", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+
+.jersey-20-regular {
+font-family: "Jersey 20", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+ */
+
+/* Styling - colours-fonts */
+
+.about {
+    background-color: #CACACA;
+    width: 95%;
+    margin: auto;
+    display: flex; 
+    align-items: center;
+    padding: 3%;
+}
+
+div p {
+    padding-left: 5%; 
+    padding-top: 3%;
+    font-size: large;
+}
+
+.img {
+    width: 40%;
+    height: auto;
+}
+
+.beside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+figure {
+    width: 2000px;
+}
+.container {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    margin: 2%;
+    border-radius: 5%;
+} 
+.container p, .container h3 {
+    color: #FFC209;
+}
+
+.review {
+    padding: 2%;
+    width: 90%;
+    margin: auto;
+}
+
+img {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    background-color: #0924AC;
+    border: 3px solid #FE271C;
+    border-radius: 10px;
+    padding: .5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+}
+.button-box {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+/* homepage laying out elements in proper places */
+
+/* style common elements -header-footer-nav */
+/* blue: #0924AC 
+green: #0E9636 
+red: #FE271C
+yellow: #FFC209 
+darkgray: #5D5D66 
+lightgray: #CACACA */
+
+/* FONTS
+.press-start-2p-regular {
+font-family: "Press Start 2P", system-ui;
+font-weight: 400;
+font-style: normal;
+}
+
+.space-grotesk-<uniquifier> {
+font-family: "Space Grotesk", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+
+.jersey-20-regular {
+font-family: "Jersey 20", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+ */
+
+/* Styling - colours-fonts */
+.beside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.container {
+    background-color: #CACACA;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    margin: 1rem;
+    border-radius: 10px;
+    height: auto;
+    align-items: baseline;
+}
+
+.review {
+    padding: 2%;
+    width: 90%;
+    margin: auto;
+}
+
+img, iframe {
+    width: 80%;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+h4 {
+    font-size: larger;
+    padding: 2%;
+}

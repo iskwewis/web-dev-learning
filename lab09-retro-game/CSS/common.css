@@ -1,0 +1,122 @@
+/* style common elements -header-footer-nav */
+/* blue: #0924AC 
+green: #0E9636 
+red: #FE271C
+yellow: #FFC209 
+darkgray: #5D5D66 
+lightgray: #CACACA */
+
+/* FONTS
+.press-start-2p-regular {
+font-family: "Press Start 2P", system-ui;
+font-weight: 400;
+font-style: normal;
+}
+
+.space-grotesk-<uniquifier> {
+font-family: "Space Grotesk", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+}
+
+.jersey-20-regular {
+font-family: "Jersey 20", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+ */
+
+/* GLOBAL IMAGE STYLE */   
+
+
+body {
+    color: #0924AC;
+    background-color: #5D5D66;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    background-color: black;
+    color: #FFC209;
+    border: 10px solid #FE271C;
+    text-align: center;
+    padding: 3%;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.nav ul {
+    font-size: larger;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10%;
+    list-style-type: none;
+}
+
+a {
+    color: #FFC209;
+    text-decoration-line: none;
+}
+
+img, iframe {
+    border: 10px solid #FE271C;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+figure img {
+    max-width: 100%;
+    
+}
+figcaption {
+    width: 80%;
+    margin: auto;
+}
+/* HEADINGS */
+h1 {
+    font-size: 3rem;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}   
+
+h2 {
+    width: fit-content;
+    font-family: "Jersey 20", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    margin: auto;
+    padding: 1%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: #0924AC;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2%;
+}
+
+p {
+    color: #0924AC;
+    padding: 3%;
+}
+
+footer {
+    text-align: center;
+}
+footer p {
+    color: #FFC209;
+}

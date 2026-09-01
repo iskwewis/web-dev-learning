@@ -1,0 +1,162 @@
+/* for layout-specific styles (floats, flexbox). */
+    /* HEADER */
+body {
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 100%;
+    height: 15rem;
+}
+.logo-h1 {
+    display: flex;
+    width: 45%;
+    padding: 1%;
+    flex-basis: 1;
+    align-self: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+header nav li {
+    padding: 10%;
+}
+header nav li :hover {
+    color: red;
+}
+
+    /* HEADINGS */
+h1 {
+    padding: 1%;
+    width: 100%;
+    margin: auto;
+}
+h2 {
+    padding: 4%;
+}
+h3 {
+    padding: 3%;
+    margin: auto;
+    width: fit-content;
+}
+h4 {
+    padding: 2%;
+}
+p {
+    text-align: left;
+    margin: 1%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    line-height: 30px;
+}
+.small p {
+    width: 100%;
+    padding: 0;
+}
+
+.page-title {
+    width: 100%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.page-title p {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 4%;
+}
+.gray-square {
+    padding: 4%;
+}
+
+.featured {
+    display: flex;
+}
+
+.featured-artist {
+    text-align: left;
+    flex: 1;
+    margin: 1%;
+    padding: 3%;
+}
+.featured-artist h3 {
+    padding: 6%;
+}
+
+    /* BIOS */
+.bios {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 4%;
+    padding: 4%;
+}
+
+.bios figure {
+    margin: 0;
+    width: 100%;
+    flex-shrink: 1;
+}
+
+.bios img {
+    width: 75%;
+    margin: auto;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+    /* GALLERY */
+.gallery-box h3 {
+    font-size: 3rem;
+    padding: 40px;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    align-items: baseline;
+}
+.gallery-box {
+    margin: 1%;
+    padding: 2% 0 2% 0;
+}
+
+.gallery-item {
+    width: 30%;
+    margin: 1%;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+figcaption {
+    font-size: 1.1em;
+    padding: 5px;
+}
+
+    /* BUTTON */
+button {
+    padding: 1%;
+}
+.button {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+footer p {
+    padding: 2%;
+}
