@@ -1,0 +1,88 @@
+/* for layout-specific styles (floats, flexbox). */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: tan;
+}
+
+/* HEADER */
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: darkred;
+    color: white;
+    padding-right: 2%;
+}
+
+header ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20%;
+    padding: 20%;
+}
+a {
+    color: white;
+}
+
+/* HEADINGS */
+h1 {
+    font-size: 3.4rem;
+    text-align: center;
+    padding: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.welcome {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 5%;
+    padding-bottom: 0%;
+}
+h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 2% 0 2% 0;
+
+}
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 5% 0 5% 0;
+}
+h4 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    padding-left: 8%;
+    padding-right: 5%;
+}
+
+/* IMAGES */
+header img {
+    margin: 1px;
+    width: 50%;
+}
+
+.middle {
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+}
+img {
+    margin: auto;
+    padding: 5%;
+}
+
+.box {
+    padding: 3%;
+    border-radius: 10px;
+}
+
+
+footer {
+    color: white;
+    background-color: darkred;
+    text-align: center;
+    padding: 2%;
+}

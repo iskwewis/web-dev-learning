@@ -1,0 +1,56 @@
+/* for general styling (colors, fonts, etc.). */
+/* WHY MOOSE */
+.side-box {
+    display: flex;
+    align-items: center;
+    background-color: darkred;
+    color: white;
+}
+
+.side-boxbox {
+    width: 50%;
+    margin: 2%;
+}
+
+/* FEATURED RECIPES */
+.recipe-cards {
+    display: flex;
+}
+.featured-card {
+    margin: 1%;
+    padding: 2%;
+    background-color: darkred;
+    color: white;
+    border-radius: 10px;
+    object-fit: cover;
+    flex: 1 1 0;
+}
+.featured-card img {
+    height: 70%;
+    width: 70%;
+}
+
+/* BUTTON */
+button {
+    background-color: rgb(164, 1, 1);
+    border: 2px solid rgb(163, 140, 110);
+    font-size: 1.5rem;
+    display: block;
+    margin: auto;
+    padding: 1%;
+    margin-top: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    border-radius: 15px;
+}
+button a {
+    text-decoration: none;
+    color: white
+}
+button:hover {
+    background-color: rgb(182, 156, 122);
+    border: 2px solid white;
+}
+.m1 button {
+    margin-top: auto;
+}
