@@ -22,14 +22,6 @@ Skills: HTML, Semantic HTML
 
 A one-page website about my favourite musician, Michael Jackson. I later revisited this project to improve the HTML structure, practice semantic HTML, and address image licensing.
 
-Favourite Things
-
-Created: August 4, 2026
-Lesson: CSS Review
-Skills: HTML, CSS
-
-A personal webpage featuring some of my favourite things, including video games and music. This project was created during our CSS review and gave me an opportunity to start applying styling to my HTML.
-
 Retro Gaming Blog
 
 Created: August 7, 2026
