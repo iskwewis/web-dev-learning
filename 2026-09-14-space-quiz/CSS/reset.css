@@ -1,0 +1,31 @@
+@charset "utf-8";
+*{
+    margin: 0px;    
+/* removes default outside spacing */
+    padding: 0px;   
+/* removes default inside spacing */
+    line-height: 1; 
+/* makes the line height equal to the font size */
+    font-size: 100%;
+/* keeps the element's font size at its inherited/default size */
+    box-sizing: border-box;
+/* makes the width and height include padding and borders */
+}
+
+nav ul a{
+    text-decoration: none;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+/* global img style */
+img {
+    display: block;
+/* removes white space between img & other content */
+    max-width: 100%;
+/* ensures img doesn't exceed parent elements width */
+    height: auto;
+/* redundant, but ensures that the image's aspect ratio is respected */
+}

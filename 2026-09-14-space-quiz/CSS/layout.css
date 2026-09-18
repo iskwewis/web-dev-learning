@@ -1,0 +1,57 @@
+/* for layout-specific styles (floats, flexbox). */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.welcome {
+    margin: 1rem 7rem 4rem 7rem;
+}
+
+@media(max-width: 768px) {
+    .welcome {
+        margin: 1rem 1rem 3rem 1rem;
+    }
+}
+
+.quiz-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+@media(max-width: 768px) {
+    .quiz-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.quiz-item {
+    margin: .5rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+#start-game {
+    grid-column: 1/-1;
+    justify-self: center;
+}
+
+#results {
+    margin: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+footer {
+    margin-top: auto;
+}
