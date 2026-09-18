@@ -1,0 +1,43 @@
+/* for layout-specific styles (floats, flexbox). */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.welcome-container {
+    margin: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+#start-game {
+    display: block;
+    margin: auto;
+}
+
+.instructions {
+    text-align: center;
+}
+
+.results-container {
+    text-align: center;
+    margin: 5rem;
+}
+@media (max-width: 768px) {
+    .results-container {
+        margin: .5rem;
+    }
+}
+
+#results {
+    text-align: center;
+    margin: 1rem;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
