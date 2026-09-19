@@ -58,6 +58,22 @@ A volunteer registration website created for a community fireside chat focused o
 
 I created this website in one day. I was especially proud of this project because I was able to take what I had learned and build a complete, purposeful website within a single day.
 
+Space Quiz
+
+Created: September 4, 2026
+Lesson: JavaScript
+Skills: HTML, CSS, JavaScript
+
+An interactive space-themed quiz created while learning JavaScript. This project gave me practice using variables, prompts, alerts, conditional statements, user input, and keeping track of a user's score.
+
+Escape the Haunted
+
+Created: September 14, 2026
+Lesson: JavaScript
+Skills: HTML, CSS, JavaScript
+
+An interactive haunted-house game where the player's choices affect what happens in the story. This project gave me more practice using JavaScript prompts, alerts, conditional statements, logical operators, variables, and branching paths.
+
 What I've Learned
 
 Throughout these projects, I have developed my skills in:
@@ -69,6 +85,10 @@ Flexbox
 CSS Grid
 Web Forms
 Responsive design
+JavaScript
+Variables and user input
+Conditional statements
+Logical operators
 Organizing multi-page websites
 Using <figure> and <figcaption>
 Image attribution and licensing
