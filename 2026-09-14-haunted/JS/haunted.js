@@ -15,7 +15,7 @@ You quickly look up.
 
 Nothing's there.`);
 
-let investigate = prompt(`Do you investigate or go to bed?`).toLowerCase();
+let investigate = prompt(`Do you "investigate" or go to bed?`).toLowerCase();
 if (investigate === 'investigate') {
     alert(`You slowly make your way upstairs and look around.
 
@@ -35,50 +35,47 @@ You call his name. He doesn't respond. After a few terrifying minutes, his arms 
 
 That silhouette doesn't feel imaginary anymore.`);
 
-
 // logical operators &&
 let callDad = prompt(`Do you call your dad? Yes or no?`).toLowerCase();
 
 if (callDad === `yes`) {
-    alert(`Your dad listens as you explain what happened.
-        
-He gives you the number for an elder.`);
+    alert(`Your dad goes quiet after hearing what happened.
+
+"We should call an Elder."`);
 }
 
 let callElder = prompt(`Do you call an Elder? Yes or no?`).toLowerCase();
-
+// YES & YES
 if (callDad === `yes` && callElder === `yes`) {
     alert(`Good choice.
 
 Your dad and the Elder arrive at the house.
 
 After hearing what happened, the Elder explains that you may be dealing with a lost spirit.`);
-} else {
-    alert(`You don't have all the help you need.
 
-The house grows strangely quiet.
-
-Maybe trying to handle this alone wasn't such a good idea.`);
-    callDad = prompt(`Call your dad?! YES or no?!`).toLowerCase();
+// YES & NO  
+} else if (callDad === `yes` && callElder ===`no`) {
+    alert(`Your dad looks concerned.
+        
+"I just told you to call an Elder."`);
     callElder = prompt(`Call an Elder?! YES or no?!`).toLowerCase();
-    if (callDad === `yes` && callElder === `yes`) {
+    if (callElder === `yes`) {
     alert(`Good choice.
 
 Your dad and the Elder arrive at the house.
 
 After hearing what happened, the Elder explains that you may be dealing with a lost spirit.`);
     } else {
-        alert(`You need to call your dad AND the Elder.`);
-        callDad = prompt(`Do you call your dad?! YES or yes?!`).toLowerCase();
+        alert(`Your dad is waiting for you to call the Elder.`);
         callElder = prompt(`Do you call an Elder?! YES or yes?!`).toLowerCase();
-        if (callDad === `yes` && callElder === `yes`) {
+        if (callElder === `yes`) {
                 alert(`Good choice.
 
 Your dad and the Elder arrive at the house.
 
 After hearing what happened, the Elder explains that you may be dealing with a lost spirit.`);
             } else {
-                alert(`I called your dad and the Elder.
+                alert(`I called the Elder.
 
 They arrive at the house.
 
@@ -86,10 +83,54 @@ After hearing what happened, the Elder explains that you may be dealing with a l
             } 
         }
 }
+// NO & YES 
+else if (callDad === `no` && callElder ===`yes`) {
+    alert(`The Elder agrees to help.
+        
+"You should call your dad too."`);
+    callDad = prompt(`Call your dad?! YES or yes?!`).toLowerCase();
+    if (callDad === `yes`) {
+    alert(`Good choice.
+
+Your dad and the Elder arrive at the house.
+
+After hearing what happened, the Elder explains that you may be dealing with a lost spirit.`);
+    } else {
+        alert(`The Elder is waiting for you to call your dad.`);
+        callDad = prompt(`Do you call your dad?! YES or yes?!`).toLowerCase();
+        if (callDad === `yes`) {
+                alert(`Good choice.
+
+Your dad and the Elder arrive at the house.
+
+After hearing what happened, the Elder explains that you may be dealing with a lost spirit.`);
+            } else {
+                alert(`I called your dad.
+
+They arrive at the house.
+
+After hearing what happened, the Elder explains that you may be dealing with a lost spirit.`);
+            } 
+        }
+} 
+// NO & NO
+else {
+    alert(`You don't have all the help you need.
+
+The house grows strangely quiet.
+
+Maybe trying to handle this alone wasn't such a good idea.
+
+I called them for you.
+
+Your dad and the Elder arrive at the house.
+
+After hearing what happened, the Elder explains that you may be dealing with a lost spirit.`);
+}
 
 // internal dilemma
 
-let faceIt = prompt(`You know there's a lost spirit in your home, do you face it or leave?`).toLowerCase();
+let faceIt = prompt(`You know there's a lost spirit in your home, do you "face it" or "leave"?`).toLowerCase();
 switch (faceIt) {
     case `face it`:
         alert(`You're terrified, but this is your home. 
@@ -97,9 +138,8 @@ Time to deal with it.`);
         break;
     case `leave`:
         alert(`You forgot your son, you better go back.`);
-        faceIt = prompt(`Face it or leave with your son?!`).toLowerCase();
+        faceIt = prompt(`"Face it" or "leave" with your son?!`).toLowerCase();
         
-
         switch (faceIt) {
             case `face it`:
                 alert(`You're terrified, but this is your home. 
@@ -113,6 +153,9 @@ Time to deal with it.`);
             default:
                 alert(`You're doing this.`);
             }
+            break;
+    default:
+        alert(`You're doing this.`);
 }
 
 // smudge bowl
@@ -131,7 +174,7 @@ let bowl = prompt(`Do you have a smudge bowl? Yes or no?`).toLowerCase();
 let shell;
 
 if (bowl !== `yes`) {
-    shell = prompt(`Do you have an abalone shell? Yes or no?`).toLowerCase();
+    shell = prompt(`Do you have another abalone shell? Yes or no?`).toLowerCase();
 }
 
 if (bowl === `yes` || shell === `yes`) {
@@ -156,6 +199,8 @@ No shadows.
 That horrible feeling is gone.
 The house feels like yours again.
 The lost spirit has left.`);
+document.getElementById("results").textContent = `${name}, you did it! The house feels peaceful again, and most importantly, the silhouette at the top of the stairs is gone.
+For now...`;
     }
     else {
     alert(`You don't have everything you need.
