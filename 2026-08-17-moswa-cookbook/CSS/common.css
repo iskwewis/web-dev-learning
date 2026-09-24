@@ -136,7 +136,10 @@ p {
 /* IMAGES */
 header img {
     margin: 1%;
-    width: 50%;
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    padding: 0;
 }
 
 img {
