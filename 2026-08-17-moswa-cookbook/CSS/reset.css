@@ -35,7 +35,12 @@ list-style-type: none;
 
 /* GLOBAL IMAGE STYLE */
 img {
-    display:block;
+    margin: auto;
+    padding: 2%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
     max-width: 100%;
-    height: auto;
+    box-sizing: border-box;
 }

@@ -2,9 +2,19 @@
 /* WHY MOOSE */
 .side-box {
     display: flex;
-    align-items: center;
     background-color: darkred;
     color: white;
+}
+@media (max-width:768px) {
+    .side-box {
+        display: block;
+    }
+}
+
+@media (max-width:480px) {
+    .side-box {
+        display: block;
+    }
 }
 
 .side-boxbox {
@@ -12,13 +22,38 @@
     margin: 2%;
 }
 
+@media (max-width:768px) {
+    .side-boxbox {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width:480px) {
+    .side-boxbox {
+        width: 100%;
+    }
+}
+
 /* FEATURED RECIPES */
 .recipe-cards {
     display: flex;
 }
+@media (max-width:768px) {
+    .recipe-cards {
+        display: block;
+    }
+}
+
+@media (max-width:480px) {
+    .recipe-cards {
+        display: block;
+    }
+}
+
 .featured-card {
     margin: 1%;
-    padding: 2%;
+    padding: 5%;
     background-color: darkred;
     color: white;
     border-radius: 10px;
@@ -37,16 +72,25 @@ button {
     font-size: 1.5rem;
     display: block;
     margin: auto;
-    padding: 1%;
+    padding: 2%;
     margin-top: 2%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 800;
     border-radius: 15px;
 }
+
+@media (max-width: 480px) {
+    button {
+        font-size: 1rem;
+        padding: 3%;
+    }
+}
+
 button a {
     text-decoration: none;
     color: white
 }
+
 button:hover {
     background-color: rgb(182, 156, 122);
     border: 2px solid white;
