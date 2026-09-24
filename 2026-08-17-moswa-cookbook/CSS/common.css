@@ -18,10 +18,6 @@ header {
     align-items: center;
 }
 
-@media (max-width: 480px) {
-
-}
-
 header ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
